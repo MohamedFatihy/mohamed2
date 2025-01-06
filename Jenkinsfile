@@ -1,11 +1,7 @@
 pipeline {
     agent any
 
-    stages {
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/MohamedFatihy/mohamed2.git'
-            }
+
         }
 
         stage('Build Docker Image') {
